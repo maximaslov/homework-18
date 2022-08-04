@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 20px 0 20px 20px;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.contacts__box {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.contact {
+    max-width: 600px;
+    display: flex;
+
+}
+
+.contact-item {
+    text-align: start;
+    width: 150px;
+}
