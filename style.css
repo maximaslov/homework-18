@@ -11,7 +11,7 @@ body  {
 }
 
 ul {
-    padding: 20px 0 20px 20px;
+    padding: 20px 0 0 0;
     list-style: none;
 }
 
@@ -27,16 +27,61 @@ ul {
 }
 
 .contacts__input {
-    background-color: rgb(211, 249, 249);
+    background-color: rgb(178 223 247);
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.contacts__input::placeholder {
+    color: #e17aa175;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.form__button {
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 120px;
+    border-style: none;
+    background-color: #e17aa175;
+}
+
+.form__button:hover {
+    color: white;
+    background-color: #e17aa1;
 }
 
 .contact {
-    max-width: 600px;
+    max-width: 734px;
     display: flex;
-
+    font-size: 21px;
+    border: solid 1px #aae1fb71;
+    padding: 5px 5px;
+    background-color: #aae1fb71;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
 }
 
 .contact-item {
     text-align: start;
     width: 150px;
+}
+
+.contact-del-btn {
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #e17aa175;
+}
+
+.contact-del-btn:hover {
+    background-color: #e17aa1;
+    color: white;
 }
